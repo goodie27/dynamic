@@ -1,0 +1,131 @@
+.body{
+    background-image: url("images/lip.jpg");
+    width: 98vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.nav-bar{
+   background-color:white ;
+   /* height: 80px; */
+    width: 100vw;
+   position: fixed;
+   top: 0;
+   padding: 10px 30px;
+   display: flex;
+   justify-content: space-between;
+}
+ .rule{
+    width: 30px;
+    height: 2px;
+    margin: 5px;
+    background-color: black;
+   }
+.last-child{
+    width: 20px;
+    height: 2px;
+    margin: 5px;
+    background-color: black;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.burger-button{
+    display: flex;
+    cursor: pointer;
+}
+
+.burger-button:hover{
+    color: red;
+}
+
+ .burger .last-child:hover{
+    background-color: red;
+    transition: all 0.3s;
+    width: 30px;
+}
+
+
+#menu-text{
+    margin: 7px;
+}
+.logo{
+    letter-spacing: 7px;
+    margin-top: -15px;
+}
+#dynamiq{
+    margin: 7px;
+ color: red;
+ font-size: 32px;
+ cursor: pointer;
+}
+.sales{
+    margin: 7px;
+    padding-left: 19px;
+    font-size: x-small;
+    font-weight: 100;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.button{
+    margin-top:15px;
+    margin-left: -212px;
+    width: 400px;
+}
+.inquiry{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 15px 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.inquiry:hover{
+    background-color: red;
+    color: white;
+}
+
+#lang-option{
+    margin-left: 40px;
+    cursor: pointer;
+}
+.build{
+    color: white;
+    position: absolute;
+    top: 334px;
+    left: 76px;
+}
+#button{
+    
+    background-color: white;
+    border-radius: 8px;
+    padding: 19px 60px;
+    color: black;
+}
+#button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.smart{
+    font-size: 50px;
+    margin: 0 ;
+    margin-bottom: 30px !important;
+    margin-top: 20px !important;
+}
+.build2{
+    margin:0;
+}
+.lines{
+    display: flex;
+}
+.line-rule{
+    width: 50px;
+    background-color: white;
+    height: 2px;
+    position: absolute;
+    top: 200px;  
+    margin-left: 40px;  
+}
